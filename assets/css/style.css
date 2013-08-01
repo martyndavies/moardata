@@ -1,0 +1,23 @@
+body a{color:#000}
+#content{margin:0 auto;width:900px;}
+#content h1{font:4em "Days One";}
+#content h1 a{color:#000;text-decoration:none}
+#content h2{margin-top:-25px}
+#content #left{float:left;width:600px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;font:14px Arial,Helvetica;}
+#content #left textarea{width:580px;height:300px}
+#content #right{float:right;width:300px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;font:14px Arial,Helvetica;}
+#content #right .pure-button-success{background:#1cb841}
+#content #right .category-button{margin-bottom:10px;font-size:120% !important;}
+#content #right .category-button .standardize-width{width:300px}
+#content #confirm{font-size:12px;clear:both;color:#000;margin-top:30px}
+#content #submit{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-top:15px;}
+#content #submit button{width:200px;height:40px}
+#top-buttons{position:absolute;right:100px;top:0;z-index:30;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+#top-buttons a{color:#fff;text-decoration:none}
+#top-buttons ul{margin:2px 0 0 0}
+#top-buttons li.lil-button{display:inline;background-color:#f00;color:#fff;padding:5px 5px 5px 5px;font-size:12px}
+#top-buttons li.first{border-right:1px solid #fff}
+#footer{height:30px;color:#fff;background-color:#000;opacity:.7;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";filter:alpha(opacity=70);bottom:0;position:absolute;width:100%;z-index:20;clear:both;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+#footer a{color:#fff}
+#footer p{padding-top:5px;float:right;font:16px "Architects Daughter";margin-right:10px;}
+#footer p .upper{text-transform:uppercase}

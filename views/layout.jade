@@ -1,0 +1,14 @@
+!!!5
+html
+	head
+		title MoarData
+		include includes/header.jade
+	body
+		div#content
+			-if (flash)
+			div#flash
+				p= info
+			h1 
+				a(href="/")
+					|MoarData
+			block content

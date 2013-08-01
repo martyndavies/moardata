@@ -1,0 +1,34 @@
+extends layout
+
+block content
+	h2 You are training the Email NLP model for Martyn Davies
+	hr
+	div#left
+		p 1. Enter some text from an email you either sent or received in the box below:
+		textarea(name="inputText", id="inputText", class="pure-input-rounded")
+
+	div#right
+		p 2. How would you categorise this email?
+
+		div.category-button
+			button(type="submit", id="positive", class="category pure-button standardize-width")
+				|Positive
+		div.category-button
+			button(type="submit", id="negative", class="category pure-button standardize-width")
+				|Negative
+		div.category-button
+			button(type="submit", id="indifferent", class="category pure-button standardize-width")
+				|Indifferent
+		div.category-button
+			button(type="submit", id="both", class="category pure-button standardize-width")
+				|Both positive and negative
+
+
+	div#confirm
+		label(for="confirm", class="pure-checkbox")
+			input(type="checkbox", id="confirm", name="confirm", checked)
+			|&nbsp;I understand that the information submitted is anonymous and will not be used for anything other than training an algorithm.
+
+	div#submit
+		button(type="submit", id="addItem", class="pure-button pure-button-primary")
+			|Add to the model
