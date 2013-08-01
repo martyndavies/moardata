@@ -22,7 +22,7 @@ $(function(){
 			if (response.saved === true){
 				releaseItems();
 			} else {
-				error();
+				new Error();
 			}
 		});
 	});
